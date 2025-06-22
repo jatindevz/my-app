@@ -3,7 +3,7 @@ import React, { useCallback, useState } from 'react'
 import { motion, AnimatePresence } from "framer-motion";
 import { GithubIcon, LinkedinIcon, TwitterIcon, Mail, Phone, ArrowRight } from 'lucide-react';
 import { BorderBeam } from "@/components/magicui/border-beam";
-import { fromTheme, twMerge } from "tailwind-merge";
+import {  twMerge } from "tailwind-merge";
 import emailjs from '@emailjs/browser';
 import { toast } from 'sonner';
 

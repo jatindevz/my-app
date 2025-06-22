@@ -2,7 +2,7 @@
 import React, { useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { twMerge } from "tailwind-merge";
-import { X, ArrowRight, Target, Github, ExternalLink } from 'lucide-react';
+import { X,  Target, Github, ExternalLink } from 'lucide-react';
 
 const ProjectComp = ({ handleOverlayClick, handleClose }) => {
   const projects = [
